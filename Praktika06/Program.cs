@@ -14,6 +14,8 @@ namespace Praktika06
             string s = Console.ReadLine();
             double x = Convert.ToDouble(s);
             double a = 5 * Math.Sin(x) - 7 * Math.Cos(x);
+            Console.WriteLine($"х = {x}, F = {F}.");
+            Console.ReadKey();
         }
     }
 }
